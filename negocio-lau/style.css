@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #000;
+  color: #f1f1f1;
+}
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #000;
+}
+
+header {
+  text-align: center;
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 1000;
+}
+
+header h1 {
+  margin: 0 0 10px 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Botón dropdown */
+.dropbtn {
+  background: none;
+  border: none;
+  color: #f1f1f1;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.dropbtn:hover {
+  color: #ff4081;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: #111;
+  min-width: 180px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  z-index: 1001;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px 15px;
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background: #222;
+  color: #ff4081;
+}
+
+/* Mostrar cuando se active */
+.dropdown.active .dropdown-content {
+  display: block;
+}
+
+/* Main */
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+section h3 {
+  margin: 20px 0 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #111;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.card-info h3 {
+  margin: 10px 0 5px;
+  font-weight: 500;
+}
+
+.card-info p {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 5px 0 10px;
+}
+
+.color-options {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.color-circle {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #fff;
+  transition: transform 0.2s ease;
+}
+
+.color-circle:hover {
+  transform: scale(1.2);
+}
