@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Ropa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Fondo partículas -->
+    <div id="particles-js"></div>
+
+    <header>
+        <h1>Mi Catálogo</h1>
+        <nav>
+            <div class="dropdown">
+                <button class="dropbtn">Hombre ▾</button>
+                <div class="dropdown-content">
+                    <a href="#hombre-chaquetones">Chaquetones</a>
+                    <a href="#hombre-camisetas">Camisetas</a>
+                    <a href="#hombre-sudaderas">Sudaderas</a>
+                    <a href="#hombre-pantalones">Pantalones</a>
+                    <a href="#hombre-bolsos">Bolsos</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Mujer ▾</button>
+                <div class="dropdown-content">
+                    <a href="#mujer-chaquetones">Chaquetones</a>
+                    <a href="#mujer-camisetas">Camisetas</a>
+                    <a href="#mujer-sudaderas">Sudaderas</a>
+                    <a href="#mujer-pantalones">Pantalones</a>
+                    <a href="#mujer-bolsos">Bolsos</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ==================== HOMBRE ==================== -->
+        <section id="hombre">
+            <h2>Sección Hombre</h2>
+
+            <!-- Chaquetones -->
+            <h3 id="hombre-chaquetones">Chaquetones</h3>
+            <div class="grid">
+                <div class="card">
+                    <img id="northface-img" src="images/northface_black.webp" alt="Chaquetón The North Face">
+                    <div class="card-info">
+                        <h3>Chaquetón The North Face 700</h3>
+                        <p>60€</p>
+                        <div class="color-options">
+                            <span class="color-circle" style="background:#000"
+                                onclick="changeColor('northface-img','northface_black.webp')"></span>
+                            <span class="color-circle" style="background:#fff"
+                                onclick="changeColor('northface-img','northface_white.webp')"></span>
+                            <span class="color-circle" style="background:#008000"
+                                onclick="changeColor('northface-img','northface_green.webp')"></span>
+                            <span class="color-circle" style="background:#808080"
+                                onclick="changeColor('northface-img','northface_gray.webp')"></span>
+                            <span class="color-circle" style="background:#800080"
+                                onclick="changeColor('northface-img','northface_purple.webp')"></span>
+                            <span class="color-circle" style="background:#00008B"
+                                onclick="changeColor('northface-img','northface_darkblue.webp')"></span>
+                            <span class="color-circle" style="background:#800000"
+                                onclick="changeColor('northface-img','northface_burgundy.webp')"></span>
+                            <span class="color-circle" style="background:#A52A2A"
+                                onclick="changeColor('northface-img','northface_brown.webp')"></span>
+                            <span class="color-circle" style="background:#F5F5DC"
+                                onclick="changeColor('northface-img','northface_cream.webp')"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Camisetas -->
+            <h3 id="hombre-camisetas">Camisetas</h3>
+            <div class="grid">
+                <div class="card">
+                    <img id="ralph-men-img" src="images/ralph_men_black.webp" alt="Camiseta Hombre Ralph Lauren">
+                    <div class="card-info">
+                        <h3>Camiseta Hombre Ralph Lauren</h3>
+                        <p>20€</p>
+                        <div class="color-options">
+                            <span class="color-circle" style="background:#000"
+                                onclick="changeColor('ralph-men-img','ralph_men_black.webp')"></span>
+                            <span class="color-circle" style="background:#fff"
+                                onclick="changeColor('ralph-men-img','ralph_men_white.webp')"></span>
+                            <span class="color-circle" style="background:#00008B"
+                                onclick="changeColor('ralph-men-img','ralph_men_darkblue.webp')"></span>
+                            <span class="color-circle" style="background:#808080"
+                                onclick="changeColor('ralph-men-img','ralph_men_gray.webp')"></span>
+                            <span class="color-circle" style="background:#ADD8E6"
+                                onclick="changeColor('ralph-men-img','ralph_men_lightblue.webp')"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sudaderas -->
+            <h3 id="hombre-sudaderas">Sudaderas</h3>
+            <div class="grid"></div>
+
+            <!-- Pantalones -->
+            <h3 id="hombre-pantalones">Pantalones</h3>
+            <div class="grid"></div>
+
+            <!-- Bolsos -->
+            <h3 id="hombre-bolsos">Bolsos</h3>
+            <div class="grid">
+                <div class="card">
+                    <img id="zadig-bag-img" src="images/bolso_zadig_black.webp" alt="Bolso zadig">
+                    <div class="card-info">
+                        <h3>Bolso Zadig & Voltaire</h3>
+                        <p>65,00€</p>
+                        <div class="color-options">
+                            <span class="color-circle" style="background:#000"
+                                onclick="changeColor('zadig-bag-img','bolso_zadig_black.webp')"></span>
+                            <span class="color-circle" style="background:#ff0000"
+                                onclick="changeColor('zadig-bag-img','bolso_zadig_red.webp')"></span>
+                            <span class="color-circle" style="background:#397c29"
+                                onclick="changeColor('zadig-bag-img','bolso_zadig_green.webp')"></span>
+                            <span class="color-circle" style="background:#A52A2A"
+                                onclick="changeColor('zadig-bag-img','bolso_zadig_brown.webp')"></span>
+                            <span class="color-circle" style="background:#ffffff"
+                                onclick="changeColor('zadig-bag-img','bolso_zadig_white.webp')"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- ==================== MUJER ==================== -->
+        <section id="mujer">
+            <h2>Sección Mujer</h2>
+
+            <!-- Chaquetones -->
+            <h3 id="mujer-chaquetones">Chaquetones</h3>
+            <div class="grid"></div>
+
+            <!-- Camisetas -->
+            <h3 id="mujer-camisetas">Camisetas</h3>
+            <div class="grid">
+                <div class="card">
+                    <img id="ralph-women-img" src="images/ralph_women_white.webp" alt="Camiseta Mujer Ralph Lauren">
+                    <div class="card-info">
+                        <h3>Camiseta Mujer Ralph Lauren</h3>
+                        <p>20€</p>
+                        <div class="color-options">
+                            <span class="color-circle" style="background:#fff"
+                                onclick="changeColor('ralph-women-img','ralph_women_white.webp')"></span>
+                            <span class="color-circle" style="background:#000"
+                                onclick="changeColor('ralph-women-img','ralph_women_black.webp')"></span>
+                            <span class="color-circle" style="background:#808080"
+                                onclick="changeColor('ralph-women-img','ralph_women_gray.webp')"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sudaderas -->
+            <h3 id="mujer-sudaderas">Sudaderas</h3>
+            <div class="grid"></div>
+
+            <!-- Pantalones -->
+            <h3 id="mujer-pantalones">Pantalones</h3>
+            <div class="grid"></div>
+
+            <!-- Bolsos -->
+            <h3 id="mujer-bolsos">Bolsos</h3>
+            <div class="grid">
+                <div class="card">
+                    <img id="guess-bag-img" src="images/guess_black.webp" alt="Bolso Guess">
+                    <div class="card-info">
+                        <h3>Bolso Guess</h3>
+                        <p>62,50€</p>
+                        <div class="color-options">
+                            <span class="color-circle" style="background:#000"
+                                onclick="changeColor('guess-bag-img','guess_black.webp')"></span>
+                            <span class="color-circle" style="background:#0000FF"
+                                onclick="changeColor('guess-bag-img','guess_blue.webp')"></span>
+                            <span class="color-circle" style="background:#FFC0CB"
+                                onclick="changeColor('guess-bag-img','guess_pink.webp')"></span>
+                            <span class="color-circle" style="background:#ffffff"
+                                onclick="changeColor('guess-bag-img','guess_white.webp')"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
