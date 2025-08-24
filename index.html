@@ -145,6 +145,7 @@
             <!-- Camisetas -->
             <h3 id="hombre-camisetas">Camisetas</h3>
             <div class="grid">
+                <!-- Ralph Lauren existente -->
                 <div class="card revealable" data-gender="hombre" data-category="camisetas"
                     data-name="camiseta hombre ralph lauren">
                     <span class="ribbon">-%</span>
@@ -176,7 +177,40 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Nueva The North Face -->
+                <div class="card revealable" data-gender="hombre" data-category="camisetas"
+                    data-name="camiseta hombre the north face">
+                    <span class="ribbon">-%</span>
+                    <img id="tnf-shirt-img" src="images/tnf_shirt_black.webp" alt="Camiseta Hombre The North Face">
+                    <div class="card-info">
+                        <h3>Camiseta Hombre The North Face</h3>
+                        <p class="details">Logo bordado en el pecho y en la espalda</p>
+                        <p class="price"><del>45€</del> <ins>20€</ins></p>
+                        <label for="tnf-shirt-size" class="label-inline">Talla:</label>
+                        <select id="tnf-shirt-size">
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                            <option>XL</option>
+                            <option>2XL</option>
+                            <option>3XL</option>
+                        </select>
+                        <div class="color-options">
+                            <span class="color-circle" style="background:#000"
+                                onclick="changeColor('tnf-shirt-img','tnf_shirt_black.webp')" title="Negro"></span>
+                            <span class="color-circle" style="background:#2F2F2F"
+                                onclick="changeColor('tnf-shirt-img','tnf_shirt_darkgray.webp')"
+                                title="Gris oscuro"></span>
+                            <span class="color-circle" style="background:#000080"
+                                onclick="changeColor('tnf-shirt-img','tnf_shirt_navy.webp')" title="Azul marino"></span>
+                            <span class="color-circle" style="background:#fff"
+                                onclick="changeColor('tnf-shirt-img','tnf_shirt_white.webp')" title="Blanco"></span>
+                        </div>
+                    </div>
+                </div>
             </div>
+
 
             <!-- Sudaderas -->
             <h3 id="hombre-sudaderas">Sudaderas</h3>
