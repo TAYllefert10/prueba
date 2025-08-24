@@ -62,19 +62,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function filterCards() {
     const q = normalize(currentQuery);
-    const filtered = cards.filter(card => {
+    return cards.filter(card => {
       const gender = normalize(card.dataset.gender);
       const category = normalize(card.dataset.category);
       const name = normalize(card.dataset.name);
-
       const genderOk = currentGender === 'all' || gender === currentGender;
       const categoryOk = currentCategory === 'all' || category === currentCategory;
       const searchOk = q === '' || name.includes(q) || gender.includes(q) || category.includes(q);
-
       return genderOk && categoryOk && searchOk;
     });
-
-    return filtered;
   }
 
   function renderPage(page = 1) {
@@ -83,20 +79,14 @@ document.addEventListener('DOMContentLoaded', () => {
     if (page > totalPages) page = totalPages;
     currentPage = page;
 
-    // Ocultar todos
     cards.forEach(card => card.style.display = 'none');
+    filtered.slice((page-1)*itemsPerPage, (page-1)*itemsPerPage + itemsPerPage).forEach(card => card.style.display = '');
 
-    // Mostrar solo los de la página actual
-    const start = (page - 1) * itemsPerPage;
-    const end = start + itemsPerPage;
-    filtered.slice(start, end).forEach(card => card.style.display = '');
-
-    // Crear paginación
     if (!paginationContainer) return;
     paginationContainer.innerHTML = '';
     if (totalPages <= 1) return;
 
-    for (let i = 1; i <= totalPages; i++) {
+    for (let i=1;i<=totalPages;i++) {
       const btn = document.createElement('button');
       btn.textContent = i;
       btn.className = (i === currentPage) ? 'active' : '';
@@ -105,29 +95,16 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Input búsqueda
-  if (searchInput) {
-    searchInput.addEventListener('input', (e) => {
-      currentQuery = e.target.value;
-      renderPage(1);
-    });
-  }
-
-  // Pills
-  pills.forEach(p => {
-    p.addEventListener('click', () => {
-      const type = p.dataset.filterType;
-      const value = normalize(p.dataset.filterValue);
-
-      document.querySelectorAll(`.pill[data-filter-type="${type}"]`).forEach(b => b.classList.remove('active'));
-      p.classList.add('active');
-
-      if (type === 'gender') currentGender = value;
-      if (type === 'category') currentCategory = value;
-
-      renderPage(1);
-    });
-  });
+  if (searchInput) searchInput.addEventListener('input', e => { currentQuery = e.target.value; renderPage(1); });
+  pills.forEach(p => p.addEventListener('click', () => {
+    const type = p.dataset.filterType;
+    const value = normalize(p.dataset.filterValue);
+    document.querySelectorAll(`.pill[data-filter-type="${type}"]`).forEach(b => b.classList.remove('active'));
+    p.classList.add('active');
+    if (type === 'gender') currentGender = value;
+    if (type === 'category') currentCategory = value;
+    renderPage(1);
+  }));
 
   renderPage(1);
 })();
@@ -154,14 +131,9 @@ document.addEventListener('DOMContentLoaded', () => {
 (function setupBackToTop() {
   const btn = document.getElementById('btnTop');
   if (!btn) return;
-
-  function onScroll() {
-    btn.style.display = (window.scrollY > 400) ? 'block' : 'none';
-  }
-  window.addEventListener('scroll', onScroll);
-  onScroll();
-
-  btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+  function onScroll() { btn.style.display = (window.scrollY > 400) ? 'block' : 'none'; }
+  window.addEventListener('scroll', onScroll); onScroll();
+  btn.addEventListener('click', () => window.scrollTo({ top:0, behavior:'smooth' }));
 })();
 
 // ====== PARTICULAS DE FONDO ======
@@ -181,4 +153,26 @@ particlesJS("particles-js", {
     "modes": { "repulse": { "distance": 100, "duration": 0.4 }, "push": { "particles_nb": 3 } }
   },
   "retina_detect": true
+});
+
+// ====== ACTUALIZAR RIBBONS AUTOMÁTICAMENTE ======
+document.querySelectorAll('.card').forEach(card => {
+  const priceDel = card.querySelector('.price del');
+  const priceIns = card.querySelector('.price ins');
+  let ribbon = card.querySelector('.ribbon');
+  if (!ribbon) {
+    ribbon = document.createElement('span');
+    ribbon.className = 'ribbon';
+    card.insertBefore(ribbon, card.firstChild);
+  }
+  if (!priceDel || !priceIns) return;
+  const original = parseFloat(priceDel.textContent.replace(/[€,]/g,'').trim());
+  const discounted = parseFloat(priceIns.textContent.replace(/[€,]/g,'').trim());
+  if (isNaN(original) || isNaN(discounted) || original <= discounted) {
+    ribbon.style.display = 'none';
+  } else {
+    const percent = Math.round(((original - discounted)/original)*100);
+    ribbon.textContent = `-${percent}%`;
+    ribbon.style.display = 'inline-block';
+  }
 });
