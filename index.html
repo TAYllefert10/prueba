@@ -62,6 +62,8 @@
                         <button class="pill" data-filter-type="category"
                             data-filter-value="camisetas">Camisetas</button>
                         <button class="pill" data-filter-type="category"
+                            data-filter-value="chaquetas">Chaquetas</button>
+                        <button class="pill" data-filter-type="category"
                             data-filter-value="sudaderas">Sudaderas</button>
                         <button class="pill" data-filter-type="category"
                             data-filter-value="pantalones">Pantalones</button>
@@ -85,7 +87,7 @@
                     <img id="northface-img" src="images/northface_black.webp" alt="Chaquetón The North Face">
                     <div class="card-info">
                         <h3>Chaquetón The North Face 700</h3>
-                        <p class="price"><del>350€</del> <ins>60€</ins></p>
+                        <p class="price"><del>350€</del> <ins>65€</ins></p>
                         <label for="northface-size" class="label-inline">Talla:</label>
                         <select id="northface-size">
                             <option>S</option>
@@ -117,7 +119,29 @@
                         </div>
                     </div>
                 </div>
-
+                <div class="card revealable" data-gender="hombre" data-category="chaquetones"
+                    data-name="chaquetón sin mangas Ralph Lauren">
+                    <span class="ribbon">-%</span>
+                    <img id="ralph_chaqueton_black" src="images/ralph_chaqueton_black.webp" alt="Chaquetón The North Face">
+                    <div class="card-info">
+                        <h3>Chaquetón The North Face 700</h3>
+                        <p class="price"><del>399.99€</del> <ins>70€</ins></p>
+                        <label for="northface-size" class="label-inline">Talla:</label>
+                        <select id="northface-size">
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                            <option>XL</option>
+                            <option>2XL</option>
+                        </select>
+                        <div class="color-options">
+                            <span class="color-circle" style="background:#000"
+                                onclick="changeColor('ralph_chaqueton_black','ralph_chaqueton_black.webp')" title="Negro"></span>
+                            <span class="color-circle" style="background:#008000"
+                                onclick="changeColor('ralph_chaqueton_black','ralph_chaqueton_green.webp')" title="Verde"></span>
+                        </div>
+                    </div>
+                </div>
                 <!-- Nike -->
                 <div class="card revealable" data-gender="hombre" data-category="chaquetones"
                     data-name="chaquetón nike negro">
@@ -346,7 +370,33 @@
                     </div>
                 </div>
             </div>
+            <h2 class="section-title">Chaquetas</h2>
+            <div class="grid">
 
+                <!-- Chaqueta Miu Miu -->
+                <div class="card revealable" data-gender="mujer" data-category="chaquetas"
+                    data-name="chaqueta miu miu blanca">
+                    <span class="ribbon">-%</span>
+                    <img id="chaqueta-miumiu-img" src="images/chaqueta_miumiu_white.webp" alt="Chaqueta Miu Miu Blanca">
+                    <div class="card-info">
+                        <h3>Chaqueta Miu Miu</h3>
+                        <p class="price"><del>1400€</del> <ins>50€</ins></p>
+                        <label for="chaqueta-miumiu-size" class="label-inline">Talla:</label>
+                        <select id="chaqueta-miumiu-size">
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                        <div class="color-options">
+                            <span class="color-circle" style="background:#fff"
+                                onclick="changeColor('chaqueta-miumiu-img','chaqueta_miumiu_white.webp')"
+                                title="Blanco"></span>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
             <!-- Sudaderas -->
             <h3 id="mujer-sudaderas">Sudaderas</h3>
             <div class="grid"></div>
