@@ -43,6 +43,7 @@
                 <div id="hombre-menu" class="dropdown-content" role="menu">
                     <a href="#hombre-chaquetones">Chaquetones</a>
                     <a href="#hombre-camisetas">Camisetas</a>
+                    <a href="#hombre-conjuntos">Conjuntos</a>
                     <a href="#hombre-sudaderas">Sudaderas</a>
                     <a href="#hombre-pantalones">Pantalones</a>
                     <a href="#hombre-bolsos">Bolsos</a>
@@ -82,6 +83,8 @@
                             data-filter-value="chaquetones">Chaquetones</button>
                         <button class="pill" data-filter-type="category"
                             data-filter-value="camisetas">Camisetas</button>
+                        <button class="pill" data-filter-type="category"
+                            data-filter-value="conjuntos">Conjuntos</button>
                         <button class="pill" data-filter-type="category"
                             data-filter-value="chaquetas">Chaquetas</button>
                         <button class="pill" data-filter-type="category"
@@ -188,6 +191,38 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Abrigo North Face -->
+                <div class="card revealable" data-gender="hombre" data-category="chaquetones"
+                    data-name="abrigo north face">
+                    <span class="ribbon">-%</span>
+                    <img id="northface-abrigo-img" src="images/abrigo_northface_black.webp"
+                        alt="Abrigo North Face Hombre">
+                    <div class="card-info">
+                        <h3>Abrigo North Face</h3>
+                        <p class="price"><del>300€</del> <ins>72€</ins></p>
+                        <label for="northface-abrigo-size" class="label-inline">Talla:</label>
+                        <select id="northface-abrigo-size">
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                            <option>XL</option>
+                            <option>2XL</option>
+                            <option>3XL</option>
+                        </select>
+                        <div class="color-options">
+                            <span class="color-circle" style="background:#000"
+                                onclick="changeColor('northface-abrigo-img','abrigo_northface_black.webp')"
+                                title="Negro"></span>
+                            <span class="color-circle" style="background:#8B4513"
+                                onclick="changeColor('northface-abrigo-img','abrigo_northface_brown.webp')"
+                                title="Marrón"></span>
+                            <span class="color-circle" style="background:#006400"
+                                onclick="changeColor('northface-abrigo-img','abrigo_northface_green.webp')"
+                                title="Verde"></span>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- Camisetas -->
@@ -222,6 +257,37 @@
                             <span class="color-circle" style="background:#ADD8E6"
                                 onclick="changeColor('ralph-men-img','ralph_men_lightblue.webp')"
                                 title="Azul claro"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Camiseta Adidas Originals Fútbol -->
+                <div class="card revealable" data-gender="hombre" data-category="camisetas"
+                    data-name="camiseta adidas originals futbol">
+                    <span class="ribbon">-%</span>
+                    <img id="adidas-futbol-img" src="images/adidas_originals_futbol.webp"
+                        alt="Camiseta Adidas Originals Fútbol">
+                    <div class="card-info">
+                        <h3>Camiseta Adidas Originals Fútbol</h3>
+                        <p class="price"><del>60€</del> <ins>19€</ins></p>
+                        <label for="adidas-futbol-size" class="label-inline">Talla:</label>
+                        <select id="adidas-futbol-size">
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                            <option>XL</option>
+                            <option>2XL</option>
+                        </select>
+                        <div class="color-options">
+                            <span class="color-circle" style="background:#fff"
+                                onclick="changeColor('adidas-futbol-img','adidas_originals_futbol.webp')"
+                                title="Blanco"></span>
+                            <span class="color-circle" style="background:#000"
+                                onclick="changeColor('adidas-futbol-img','adidas_originals_futbol_black.webp')"
+                                title="Negro"></span>
+                            <span class="color-circle" style="background:#0000ff"
+                                onclick="changeColor('adidas-futbol-img','adidas_originals_futbol_blue.webp')"
+                                title="Azul"></span>
                         </div>
                     </div>
                 </div>
@@ -259,6 +325,34 @@
                 </div>
             </div>
 
+            <!-- Conjuntos -->
+            <h3 id="hombre-conjuntos">Conjuntos</h3>
+            <div class="grid">
+                <!-- Conjunto corto Adidas -->
+                <div class="card revealable" data-gender="hombre" data-category="conjuntos"
+                    data-name="conjunto corto adidas negro">
+                    <span class="ribbon">-%</span>
+                    <img id="adidas-conjunto-img" src="images/conjunto_adidas_black.webp"
+                        alt="Conjunto corto Adidas negro">
+                    <div class="card-info">
+                        <h3>Conjunto corto Adidas</h3>
+                        <p class="price"><del>80€</del> <ins>29€</ins></p>
+                        <label for="adidas-conjunto-size" class="label-inline">Talla:</label>
+                        <select id="adidas-conjunto-size">
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                            <option>XL</option>
+                            <option>2XL</option>
+                        </select>
+                        <div class="color-options">
+                            <span class="color-circle" style="background:#000"
+                                onclick="changeColor('adidas-conjunto-img','conjunto_adidas_black.webp')"
+                                title="Negro"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- Sudaderas -->
             <h3 id="hombre-sudaderas">Sudaderas</h3>
@@ -332,7 +426,61 @@
 
             <!-- Bolsos -->
             <h3 id="hombre-bolsos">Bolsos</h3>
-            <div class="grid"></div>
+            <div class="grid">
+
+                <!-- Bandolera Adidas -->
+                <div class="card revealable" data-gender="hombre" data-category="bolsos" data-name="riñonera adidas">
+                    <span class="ribbon">-%</span>
+                    <img id="adidas-bag-img" src="images/bandolera_adidas.webp" alt="bandolera_adidas">
+                    <div class="card-info">
+                        <h3>Bandolera adidas</h3>
+                        <p class="price"><del>45€</del> <ins>17€</ins></p>
+                        <div class="color-options">
+                            <span class="color-circle" style="background:#000"
+                                onclick="changeColor('adidas-bag-img','rinonera_adidas_black.webp')"
+                                title="Negro"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bandolera Adidas Originals -->
+                <div class="card revealable" data-gender="hombre" data-category="bolsos"
+                    data-name="bandolera adidas originals">
+                    <span class="ribbon">-%</span>
+                    <img id="adidas-originals-bag-img" src="images/bandolera_adidas_originals.webp"
+                        alt="Bandolera Adidas Originals">
+                    <div class="card-info">
+                        <h3>Bandolera Adidas Originals</h3>
+                        <p class="price"><del>55€</del> <ins>19€</ins></p>
+                        <div class="color-options">
+                            <span class="color-circle" style="background:#000"
+                                onclick="changeColor('adidas-originals-bag-img','rinonera_adidasoriginals_black.webp')"
+                                title="Negro"></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Riñonera Supreme -->
+                <div class="card revealable" data-gender="hombre" data-category="bolsos" data-name="riñonera supreme">
+                    <span class="ribbon">-%</span>
+                    <img id="supreme-bag-img" src="images/rinonera_supreme_black.webp" alt="Riñonera Supreme">
+                    <div class="card-info">
+                        <h3>Riñonera Supreme</h3>
+                        <p class="price"><del>60€</del> <ins>19€</ins></p>
+                        <div class="color-options">
+                            <span class="color-circle" style="background:#000"
+                                onclick="changeColor('supreme-bag-img','rinonera_supreme_black.webp')"
+                                title="Negro"></span>
+                            <span class="color-circle" style="background:#008000"
+                                onclick="changeColor('supreme-bag-img','rinonera_supreme_green.webp')"
+                                title="Verde"></span>
+                            <span class="color-circle" style="background:#8B4513"
+                                onclick="changeColor('supreme-bag-img','rinonera_supreme_brown.webp')"
+                                title="Marrón"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
 
         <!-- ==================== MUJER ==================== -->
