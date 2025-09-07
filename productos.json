@@ -411,8 +411,21 @@
       { "nombre": "Rosa", "imagen": "guess_pink.webp" },
       { "nombre": "Blanco", "imagen": "guess_white.webp" }
     ]
-  }
+  },{
+    "genero": "Hombre",
+    "categoria": "Conjuntos",
+    "nombre": "Conjunto Nike",
+    "precioOriginal": 90,
+    "precioRebajado": 40,
+        "disponible": true,
+    "tallas": "S.XL,XXL",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Negro", "imagen": "nike_conjunto.webp" }
+    ]
+  },
 ]
+
 
 
 
