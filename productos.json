@@ -466,8 +466,35 @@
       { "nombre": "Negro", "imagen": "bolso_miu_miu_wander_black.webp" },
       { "nombre": "Caramelo", "imagen": "bolso_miu_miu_wander_caramel.webp" }
     ]
+  },
+  {
+    "genero": "Hombre",
+    "categoria": "Accesorios",
+    "nombre": "Gorro de pescador The North Face",
+    "precioOriginal": 50,
+    "precioRebajado": 25,
+        "disponible": true,
+    "tallas": "",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Multicolor", "imagen": "gorro_pesca_tnf.webp" }
+    ]
+  },
+  {
+    "genero": "Mujer",
+    "categoria": "Accesorios",
+    "nombre": "Gorro de pescador The North Face",
+    "precioOriginal": 50,
+    "precioRebajado": 25,
+        "disponible": true,
+    "tallas": "",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Multicolor", "imagen": "gorro_pesca_tnf.webp" }
+    ]
   }
 ]
+
 
 
 
