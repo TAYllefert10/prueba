@@ -492,8 +492,22 @@
     "colores": [
       { "nombre": "Multicolor", "imagen": "gorro_pesca_tnf.webp" }
     ]
+  },
+  {
+    "genero": "Mujer",
+    "categoria": "Accesorios",
+    "nombre": "Gorro de pescador Ralph Lauren (Colores disponibles)",
+    "precioOriginal": 50,
+    "precioRebajado": 25,
+        "disponible": true,
+    "tallas": "",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Multicolor", "imagen": "gorro_pesca_rl.webp" }
+    ]
   }
 ]
+
 
 
 
