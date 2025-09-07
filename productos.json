@@ -518,8 +518,27 @@
     "colores": [
       { "nombre": "Multicolor", "imagen": "gorro_pesca_rl.webp" }
     ]
+  },
+  {
+    "genero": "Mujer",
+    "categoria": "Accesorios",
+    "nombre": "Gorro de pescador Carolina Herrera",
+    "precioOriginal": 185,
+    "precioRebajado": 50,
+        "disponible": true,
+    "tallas": "",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Marrón", "imagen": "gorro_pescador_ch_brown.webp" },
+      { "nombre": "Azul Marino", "imagen": "gorro_pescador_ch_blue.webp" },
+      { "nombre": "Rojo", "imagen": "gorro_pescador_ch_red.webp" },
+      { "nombre": "Marrón", "imagen": "gorro_pescador_ch_brown2.webp" },
+      { "nombre": "Blanco", "imagen": "gorro_pescador_ch_white.webp" },
+      { "nombre": "Rosa", "imagen": "gorro_pescador_ch_pink.webp" }
+    ]
   }
 ]
+
 
 
 
