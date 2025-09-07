@@ -1,0 +1,424 @@
+[
+  {
+    "genero": "Hombre",
+    "categoria": "Chaquetones",
+    "nombre": "Chaquetón The North Face 700",
+    "precioOriginal": 350,
+    "precioRebajado": 65,
+    "disponible": true,
+    "tallas": "S-2XL",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Negro", "imagen": "northface_black.webp" },
+      { "nombre": "Marrón", "imagen": "northface_brown.webp" },
+      { "nombre": "Burdeos", "imagen": "northface_burgundy.webp" },
+      { "nombre": "Crema", "imagen": "northface_cream.webp" },
+      { "nombre": "Azul oscuro", "imagen": "northface_darkblue.webp" },
+      { "nombre": "Gris", "imagen": "northface_gray.webp" },
+      { "nombre": "Verde", "imagen": "northface_green.webp" },
+      { "nombre": "Morado", "imagen": "northface_purple.webp" },
+      { "nombre": "Blanco", "imagen": "northface_white.webp" }
+    ]
+  },
+  {
+    "genero": "Hombre",
+    "categoria": "Chaquetones",
+    "nombre": "Chaquetón sin mangas Ralph Lauren",
+    "precioOriginal": 399.99,
+    "precioRebajado": 65,
+        "disponible": true,
+    "tallas": "S-2XL",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Negro", "imagen": "ralph_chaqueton_black.webp" },
+      { "nombre": "Verde", "imagen": "ralph_chaqueton_green.webp" }
+    ]
+  },
+  {
+    "genero": "Hombre",
+    "categoria": "Chaquetones",
+    "nombre": "Chaquetón Nike",
+    "precioOriginal": 200,
+    "precioRebajado": 70,
+        "disponible": true,
+    "tallas": "S-2XL",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Negro", "imagen": "nike_black.webp" }
+    ]
+  },
+  {
+    "genero": "Hombre",
+    "categoria": "Chaquetones",
+    "nombre": "Abrigo North Face",
+    "precioOriginal": 300,
+    "precioRebajado": 72,
+        "disponible": true,
+    "tallas": "S-3XL",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Negro", "imagen": "abrigo_northface_black.webp" },
+      { "nombre": "Marrón", "imagen": "abrigo_northface_brown.webp" },
+      { "nombre": "Verde", "imagen": "abrigo_northface_green.webp" }
+    ]
+  },
+  {
+    "genero": "Hombre",
+    "categoria": "Chaquetones",
+    "nombre": "Chaquetón Adidas Originals x Balenciaga",
+    "precioOriginal": 250,
+    "precioRebajado": 65,
+        "disponible": true,
+    "tallas": "S-XXL",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Negro", "imagen": "chaqueton_adidas_original_black.webp" }
+    ]
+  },
+  {
+    "genero": "Hombre",
+    "categoria": "Camisetas",
+    "nombre": "Camiseta Hombre Ralph Lauren",
+    "precioOriginal": 80,
+    "precioRebajado": 20,
+        "disponible": true,
+    "tallas": "S-2XL",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Negro", "imagen": "ralph_men_black.webp" },
+      { "nombre": "Azul oscuro", "imagen": "ralph_men_darkblue.webp" },
+      { "nombre": "Gris", "imagen": "ralph_men_gray.webp" },
+      { "nombre": "Azul claro", "imagen": "ralph_men_lightblue.webp" },
+      { "nombre": "Blanco", "imagen": "ralph_men_white.webp" }
+    ]
+  },
+  {
+    "genero": "Hombre",
+    "categoria": "Camisetas",
+    "nombre": "Camiseta Adidas Originals Fútbol",
+    "descripcion": "Logo bordado en el pecho y en la espalda",
+    "precioOriginal": 60,
+    "precioRebajado": 19,
+        "disponible": true,
+    "tallas": "S-2XL",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Negro", "imagen": "adidas_originals_futbol_black.webp" },
+      { "nombre": "Azul", "imagen": "adidas_originals_futbol_blue.webp" },
+      { "nombre": "Negro", "imagen": "adidas_originals_futbol.webp" }
+    ]
+  },
+ {
+  "genero": "Hombre",
+  "categoria": "Camisetas",
+  "nombre": "Camiseta Hombre The North Face",
+  "descripcion": "Logo bordado en el pecho y en la espalda",
+  "precioOriginal": 45,
+  "precioRebajado": 20,
+  "disponible": false,
+  "tallas": "S-3XL",
+  "medidas": "",
+  "colores": [
+    { "nombre": "Negro", "imagen": "tnf_shirt_black.webp" },
+        { "nombre": "Negro", "imagen": "tnf_shirt_darkgray.webp" },
+        { "nombre": "Negro", "imagen": "tnf_shirt_navy.webp" },
+        { "nombre": "Negro", "imagen": "tnf_shirt_white.webp" }
+  ]
+},
+  {
+    "genero": "Hombre",
+    "categoria": "Conjuntos",
+    "nombre": "Conjunto corto Adidas",
+    "precioOriginal": 80,
+    "precioRebajado": 35,
+        "disponible": true,
+    "tallas": "S-2XL",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Negro", "imagen": "conjunto_adidas_black.webp" }
+    ]
+  },
+  {
+    "genero": "Hombre",
+    "categoria": "Sudaderas",
+    "nombre": "Sudadera Hombre Stone Island",
+    "precioOriginal": 310,
+    "precioRebajado": 55,
+        "disponible": true,
+    "tallas": "S-XL",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Amarillo", "imagen": "stone_island_apricot.webp" },
+      { "nombre": "Negro", "imagen": "stone_island_black.webp" },
+      { "nombre": "Gris oscuro", "imagen": "stone_island_darkgray.webp" },
+      { "nombre": "Gris claro", "imagen": "stone_island_lightgray.webp" },
+      { "nombre": "Blanco", "imagen": "stone_island_white.webp" }
+    ]
+  },
+  {
+    "genero": "Hombre",
+    "categoria": "Pantalones",
+    "nombre": "Calzona The North Face",
+    "precioOriginal": 45,
+    "precioRebajado": 20,
+        "disponible": true,
+    "tallas": "S-2XL",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Negro", "imagen": "tnf_pants_black.webp" },
+      { "nombre": "Gris", "imagen": "tnf_pants_gray.webp" },
+      { "nombre": "Blanco", "imagen": "tnf_pants_white.webp" }
+    ]
+  },
+  {
+    "genero": "Hombre",
+    "categoria": "Pantalones",
+    "nombre": "Bermudas Ralph Lauren",
+    "precioOriginal": 95,
+    "precioRebajado": 30,
+        "disponible": true,
+    "tallas": "M-XXL",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Beige", "imagen": "bermudas_ralph_lauren.webp" }
+    ]
+  },
+  {
+    "genero": "Hombre",
+    "categoria": "Pantalones",
+    "nombre": "Calzonas Adidas Originals",
+    "precioOriginal": 75,
+    "precioRebajado": 32,
+        "disponible": true,
+    "tallas": "S-XXXL",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Negro", "imagen": "calzonas_adidas_original_black.webp" },
+      { "nombre": "Blanco", "imagen": "calzonas_adidas_original_white.webp" }
+    ]
+  },
+  {
+    "genero": "Hombre",
+    "categoria": "Bolsos",
+    "nombre": "Bandolera adidas",
+    "precioOriginal": 45,
+    "precioRebajado": 17,
+        "disponible": true,
+    "tallas": "",
+    "medidas": "x",
+    "colores": [
+      { "nombre": "Negro", "imagen": "bandolera_adidas.webp" }
+    ]
+  },
+  {
+    "genero": "Hombre",
+    "categoria": "Bolsos",
+    "nombre": "Bandolera Adidas Originals",
+    "precioOriginal": 55,
+    "precioRebajado": 18,
+        "disponible": true,
+    "tallas": "",
+    "medidas": "x",
+    "colores": [
+      { "nombre": "Negro", "imagen": "bandolera_adidas_originals.webp" }
+    ]
+  },
+  {
+    "genero": "Hombre",
+    "categoria": "Bolsos",
+    "nombre": "Riñonera Supreme",
+    "precioOriginal": 60,
+    "precioRebajado": 20,
+        "disponible": true,
+    "tallas": "",
+    "medidas": "x",
+    "colores": [
+      { "nombre": "Negro", "imagen": "rinonera_supreme_black.webp" },
+      { "nombre": "Marrón", "imagen": "rinonera_supreme_brown.webp" },
+      { "nombre": "Verde", "imagen": "rinonera_supreme_green.webp" }
+    ]
+  },
+  {
+    "genero": "Mujer",
+    "categoria": "Chaquetones",
+    "nombre": "Chaquetón The North Face corto",
+    "precioOriginal": 280,
+    "precioRebajado": 65,
+        "disponible": true,
+    "tallas": "S-2XL",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Negro", "imagen": "w_northface_black.webp" },
+      { "nombre": "Rosa", "imagen": "w_northface_pink.webp" },
+      { "nombre": "Blanco", "imagen": "w_northface_white.webp" }
+    ]
+  },
+  {
+    "genero": "Mujer",
+    "categoria": "Chaquetones",
+    "nombre": "Chaquetón Nike",
+    "precioOriginal": 200,
+    "precioRebajado": 70,
+        "disponible": true,
+    "tallas": "S-2XL",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Negro", "imagen": "nike_black.webp" }
+    ]
+  },
+  {
+    "genero": "Mujer",
+    "categoria": "Chaquetones",
+    "nombre": "Chaquetón Adidas Originals x Balenciaga",
+    "precioOriginal": 250,
+    "precioRebajado": 65,
+        "disponible": true,
+    "tallas": "S-XXL",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Negro", "imagen": "chaqueton_adidas_original_black.webp" }
+    ]
+  },
+  {
+    "genero": "Mujer",
+    "categoria": "Camisetas",
+    "nombre": "Camiseta Mujer Ralph Lauren",
+    "precioOriginal": 80,
+    "precioRebajado": 20,
+        "disponible": true,
+    "tallas": "S-L",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Negro", "imagen": "ralph_women_black.webp" },
+      { "nombre": "Gris", "imagen": "ralph_women_gray.webp" },
+      { "nombre": "Blanco", "imagen": "ralph_women_white.webp" }
+    ]
+  },
+  {
+    "genero": "Mujer",
+    "categoria": "Bolsos",
+    "nombre": "Bolso Coach",
+    "precioOriginal": 375,
+    "precioRebajado": 40,
+        "disponible": true,
+    "tallas": "",
+    "medidas": "x",
+    "colores": [
+      { "nombre": "Negro", "imagen": "bolso_coach_black.webp" },
+      { "nombre": "Negro", "imagen": "bolso_coach.webp" }
+    ]
+  },
+  {
+    "genero": "Mujer",
+    "categoria": "Bolsos",
+    "nombre": "Bolso Zadig Voltaire",
+    "precioOriginal": 395,
+    "precioRebajado": 55,
+        "disponible": true,
+    "tallas": "",
+    "medidas": "27x2x13 cm",
+    "colores": [
+      { "nombre": "Negro", "imagen": "bolso_zadig_black.webp" },
+      { "nombre": "Marrón", "imagen": "bolso_zadig_brown.webp" },
+      { "nombre": "Verde", "imagen": "bolso_zadig_green.webp" },
+      { "nombre": "Rojo", "imagen": "bolso_zadig_red.webp" },
+      { "nombre": "Blanco", "imagen": "bolso_zadig_white.webp" }
+    ]
+  },
+  {
+    "genero": "Mujer",
+    "categoria": "Bolsos",
+    "nombre": "Monedero Zadig Voltaire",
+    "precioOriginal": 125,
+    "precioRebajado": 27,
+        "disponible": true,
+    "tallas": "",
+    "medidas": "x",
+    "colores": [
+      { "nombre": "Negro", "imagen": "monedero_zadig_black.webp" },
+      { "nombre": "Negro", "imagen": "monedero_zadig_black2.webp" }
+    ]
+  },
+  {
+    "genero": "Mujer",
+    "categoria": "Chaquetas",
+    "nombre": "Chaqueta Ami Paris",
+    "precioOriginal": 330,
+    "precioRebajado": 40,
+        "disponible": true,
+    "tallas": "S-XL",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Marrón", "imagen": "chaqueta_ami_paris_brown.webp" },
+      { "nombre": "Gris", "imagen": "chaqueta_ami_paris_grey.webp" }
+    ]
+  },
+  {
+    "genero": "Mujer",
+    "categoria": "Chaquetas",
+    "nombre": "Chaqueta Miu Miu",
+    "precioOriginal": 250,
+    "precioRebajado": 42,
+        "disponible": true,
+    "tallas": "S-L",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Blanco", "imagen": "chaqueta_miumiu_white.webp" }
+    ]
+  },
+  {
+    "genero": "Mujer",
+    "categoria": "Top",
+    "nombre": "Top Ami Paris",
+    "precioOriginal": 110,
+    "precioRebajado": 26,
+        "disponible": true,
+    "tallas": "S-XL",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Negro", "imagen": "top_ami_paris_black.webp" },
+      { "nombre": "Azul", "imagen": "top_ami_paris_blue.webp" },
+      { "nombre": "Marrón", "imagen": "top_ami_paris_brown.webp" }
+    ]
+  },
+  {
+    "genero": "Mujer",
+    "categoria": "Sudaderas",
+    "nombre": "Sudadera Alo Yoga",
+    "precioOriginal": 138,
+    "precioRebajado": 32,
+        "disponible": true,
+    "tallas": "XS-L",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Negro", "imagen": "sudadera_alo_black.webp" },
+      { "nombre": "Azul", "imagen": "sudadera_alo_blue.webp" },
+      { "nombre": "Gris", "imagen": "sudadera_alo_grey.webp" }
+    ]
+  },
+  {
+    "genero": "Mujer",
+    "categoria": "Bolsos",
+    "nombre": "Bolso Guess",
+    "precioOriginal": 125,
+    "precioRebajado": 62.5,
+        "disponible": true,
+    "tallas": "S-L",
+    "medidas": "17x7.5x23 cm",
+    "colores": [
+      { "nombre": "Negro", "imagen": "guess_black.webp" },
+      { "nombre": "Azul", "imagen": "guess_blue.webp" },
+      { "nombre": "Rosa", "imagen": "guess_pink.webp" },
+      { "nombre": "Blanco", "imagen": "guess_white.webp" }
+    ]
+  }
+]
+
+
+
+
+
+
+
+
+
