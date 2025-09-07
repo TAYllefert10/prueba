@@ -520,7 +520,7 @@
     ]
   },
   {
-    "genero": "Mujer",
+    "genero": "Mujer", "Hombre",
     "categoria": "Accesorios",
     "nombre": "Gorro de pescador Carolina Herrera",
     "precioOriginal": 185,
@@ -538,6 +538,7 @@
     ]
   }
 ]
+
 
 
 
