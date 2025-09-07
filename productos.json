@@ -439,8 +439,36 @@
       { "nombre": "Negro", "imagen": "polo_ralph_lauren_green.webp" },
       { "nombre": "Negro", "imagen": "polo_ralph_lauren_white.webp" }
     ]
+  },
+  {
+    "genero": "Mujer",
+    "categoria": "Bolsos",
+    "nombre": "Bolso MIU MIU",
+    "precioOriginal": 2500,
+    "precioRebajado": 30,
+        "disponible": true,
+    "tallas": "",
+    "medidas": "22x10x22",
+    "colores": [
+      { "nombre": "Beige", "imagen": "bolso_miu_miu.webp" }
+    ]
+  },
+  {
+    "genero": "Mujer",
+    "categoria": "Bolsos",
+    "nombre": "Bolso MIU MIU Wander",
+    "precioOriginal": 2500,
+    "precioRebajado": 30,
+        "disponible": true,
+    "tallas": "",
+    "medidas": "18x7x25",
+    "colores": [
+      { "nombre": "Negro", "imagen": "bolso_miu_miu_wander_black.webp" },
+      { "nombre": "Caramelo", "imagen": "bolso_miu_miu_wander_caramel.webp" }
+    ]
   }
 ]
+
 
 
 
