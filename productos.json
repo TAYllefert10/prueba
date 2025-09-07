@@ -424,7 +424,24 @@
       { "nombre": "Negro", "imagen": "nike_conjunto.webp" }
     ]
   },
+  {
+    "genero": "Hombre",
+    "categoria": "Camisetas",
+    "nombre": "Polo Ralph Lauren",
+    "precioOriginal": 49,
+    "precioRebajado": 25,
+        "disponible": true,
+    "tallas": "S-XXL",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Negro", "imagen": "polo_ralph_lauren_crema.webp" },
+      { "nombre": "Negro", "imagen": "polo_ralph_lauren_brown.webp" },
+      { "nombre": "Negro", "imagen": "polo_ralph_lauren_green.webp" },
+      { "nombre": "Negro", "imagen": "polo_ralph_lauren_white.webp" }
+    ]
+  }
 ]
+
 
 
 
