@@ -561,7 +561,7 @@
     "medidas": "",
     "colores": [
       { "nombre": "Negro", "imagen": "Camiseta_CommeDesGarçons_black.webp" },
-      { "nombre": "Blanco", "imagen": "Camiseta_CommeDesGarçons_white.webp" },
+      { "nombre": "Blanco", "imagen": "Camiseta_CommeDesGarçons_white.webp" }
     ]
   },
       {
@@ -575,10 +575,11 @@
     "medidas": "",
     "colores": [
       { "nombre": "Negro", "imagen": "Camiseta_CommeDesGarçons_black.webp" },
-      { "nombre": "Blanco", "imagen": "Camiseta_CommeDesGarçons_white.webp" },
+      { "nombre": "Blanco", "imagen": "Camiseta_CommeDesGarçons_white.webp" }
     ]
   }
 ]
+
 
 
 
