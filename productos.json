@@ -115,7 +115,7 @@
   "descripcion": "Logo bordado en el pecho y en la espalda",
   "precioOriginal": 45,
   "precioRebajado": 20,
-  "disponible": false,
+  "disponible": true,
   "tallas": "S-3XL",
   "medidas": "",
   "colores": [
@@ -538,6 +538,7 @@
     ]
   }
 ]
+
 
 
 
