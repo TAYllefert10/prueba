@@ -536,8 +536,50 @@
       { "nombre": "Blanco", "imagen": "gorro_pescador_ch_white.webp" },
       { "nombre": "Rosa", "imagen": "gorro_pescador_ch_pink.webp" }
     ]
+  },
+    {
+    "genero": "Mujer",
+    "categoria": "Conjuntos",
+    "nombre": "Conjunto The North Face",
+    "precioOriginal": 150,
+    "precioRebajado": 45,
+        "disponible": true,
+    "tallas": "S-XL",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Negro", "imagen": "tnf_women_conjunto.webp" }
+    ]
+  },
+    {
+    "genero": "Hombre",
+    "categoria": "Camisetas",
+    "nombre": "Camiseta Comme Des Garçons",
+    "precioOriginal": 90,
+    "precioRebajado": 25,
+        "disponible": true,
+    "tallas": "S-XL",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Negro", "imagen": "Camiseta_CommeDesGarçons_black.webp" },
+      { "nombre": "Blanco", "imagen": "Camiseta_CommeDesGarçons_white.webp" },
+    ]
+  },
+      {
+    "genero": "Mujer",
+    "categoria": "Camisetas",
+    "nombre": "Camiseta Comme Des Garçons",
+    "precioOriginal": 90,
+    "precioRebajado": 25,
+        "disponible": true,
+    "tallas": "S-XL",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Negro", "imagen": "Camiseta_CommeDesGarçons_black.webp" },
+      { "nombre": "Blanco", "imagen": "Camiseta_CommeDesGarçons_white.webp" },
+    ]
   }
 ]
+
 
 
 
