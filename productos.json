@@ -577,8 +577,26 @@
       { "nombre": "Negro", "imagen": "Camiseta_CommeDesGarçons_black.webp" },
       { "nombre": "Blanco", "imagen": "Camiseta_CommeDesGarçons_white.webp" }
     ]
+  },
+        {
+    "genero": "",
+    "categoria": "Calzado",
+    "nombre": "Asics Kayano 14",
+    "precioOriginal": 170,
+    "precioRebajado": 45,
+        "disponible": true,
+    "tallas": "36-46",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Blanco", "imagen": "asics_Kayano_14_whitetotal.webp" },
+      { "nombre": "Rosa", "imagen": "asics_Kayano_14_pink.webp" },
+      { "nombre": "Negro", "imagen": "asics_Kayano_14_black.webp" },
+      { "nombre": "Gris", "imagen": "asics_Kayano_14_grey.webp" },
+      { "nombre": "Blanco", "imagen": "Asics_Kayano_14_white.webp" },
+    ]
   }
 ]
+
 
 
 
