@@ -585,7 +585,7 @@
     "precioOriginal": 170,
     "precioRebajado": 45,
         "disponible": true,
-    "tallas": "36-46",
+    "tallas": "36-45",
     "medidas": "",
     "colores": [
       { "nombre": "Blanco", "imagen": "asics_Kayano_14_whitetotal.webp" },
@@ -594,8 +594,198 @@
       { "nombre": "Gris", "imagen": "asics_Kayano_14_grey.webp" },
       { "nombre": "Blanco", "imagen": "Asics_Kayano_14_white.webp" }
     ]
+  },
+          {
+    "genero": "",
+    "categoria": "Zapatos",
+    "nombre": "Adidas Campus",
+    "precioOriginal": 120,
+    "precioRebajado": 45,
+        "disponible": true,
+    "tallas": "36-45",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Blanco", "imagen": "adidas_campus_white.webp" },
+      { "nombre": "Rojo", "imagen": "adidas_campus_red.webp" },
+      { "nombre": "Amarillo", "imagen": "adidas_campus_yellow.webp" },
+      { "nombre": "Azul", "imagen": "adidas_campus_blue.webp" },
+      { "nombre": "Naranja", "imagen": "adidas_campus_orange.webp" },
+      { "nombre": "Crema", "imagen": "adidas_campus_cream.webp" }
+    ]
+  },
+            {
+    "genero": "",
+    "categoria": "Zapatos",
+    "nombre": "Converse x Comme Des Garçons",
+    "precioOriginal": 150,
+    "precioRebajado": 45,
+        "disponible": true,
+    "tallas": "35-44",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Blanco", "imagen": "converse_x_comme_des_garçons_white.webp" },
+      { "nombre": "Blanco", "imagen": "converse_x_comme_des_garçons_creamlarge.webp" },
+      { "nombre": "Negro", "imagen": "converse_x_comme_des_garçons_black.webp" },
+      { "nombre": "Negro", "imagen": "converse_x_comme_des_garçons_blacklarge.webp" },
+      { "nombre": "Gris", "imagen": "converse_x_comme_des_garçons_greyshort.webp" },
+      { "nombre": "Gris", "imagen": "converse_x_comme_des_garçons_greaylarge.webp" }
+    ]
+  },
+              {
+    "genero": "",
+    "categoria": "Zapatos",
+    "nombre": "Adidas Gazelle",
+    "precioOriginal": 120,
+    "precioRebajado": 45,
+        "disponible": true,
+    "tallas": "36-45",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Rosa y verde", "imagen": "adidas_gazelle.webp" }
+    ]
+  },
+                {
+    "genero": "",
+    "categoria": "Zapatos",
+    "nombre": "Adidas Spezial",
+    "precioOriginal": 110,
+    "precioRebajado": 45,
+        "disponible": true,
+    "tallas": "36-45",
+    "medidas": "",
+    "colores": [
+      { "nombre": "verde", "imagen": "adidas_spezial.webp" }
+    ]
+  },
+                  {
+    "genero": "",
+    "categoria": "Zapatos",
+    "nombre": "Adidas x Bad Bunny",
+    "precioOriginal": 170,
+    "precioRebajado": 45,
+        "disponible": true,
+    "tallas": "36-45",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Blanco", "imagen": "adidasxbadbunny_white.webp" },
+      { "nombre": "Negro", "imagen": "adidasxbadbunny_black.webp" },
+      { "nombre": "Marron oscuro", "imagen": "adidasxbadbunny_darkbrown.webp" },
+      { "nombre": "Marron", "imagen": "adidasxbadbunny_brown.webp" }
+      
+    ]
+  },
+                    {
+    "genero": "",
+    "categoria": "Zapatos",
+    "nombre": "Converse all star",
+    "precioOriginal": 80,
+    "precioRebajado": 45,
+        "disponible": true,
+    "tallas": "35-44",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Blanco", "imagen": "converse_all_star_whitelarge.webp" },
+      { "nombre": "Blanco", "imagen": "converse_all_star_whiteshort.webp" },
+      { "nombre": "Negro", "imagen": "converse_all_star_blacklarge.webp" },
+      { "nombre": "Negro", "imagen": "converse_all_star_blackshort.webp" },
+      { "nombre": "Rojo", "imagen": "converse_all_star_redlarge.webp" },
+      { "nombre": "Rojo", "imagen": "converse_all_star_redshort.webp" },
+      { "nombre": "Azul", "imagen": "converse_all_star_bluelarge.webp" },
+      { "nombre": "Azul", "imagen": "converse_all_star_blueshort.webp" }
+      
+    ]
+  },
+                      {
+    "genero": "",
+    "categoria": "Zapatos",
+    "nombre": "Adidas Gazelle x Gucci",
+    "precioOriginal": 1495,
+    "precioRebajado": 60,
+        "disponible": true,
+    "tallas": "40-44",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Blanco", "imagen": "adidas_gazellexgucci_white.webp" },
+      { "nombre": "Rojo", "imagen": "adidas_gazellexgucci_red.webp" },
+      { "nombre": "Azul", "imagen": "adidas_gazellexgucci_blue.webp" }
+      
+    ]
+  },
+                        {
+    "genero": "",
+    "categoria": "Zapatos",
+    "nombre": "New Balance 327",
+    "precioOriginal": 130,
+    "precioRebajado": 45,
+        "disponible": true,
+    "tallas": "36-45",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Blanco", "imagen": "newbalance327.webp" }
+      
+    ]
+  },
+                          {
+    "genero": "",
+    "categoria": "Zapatos",
+    "nombre": "New Balance 9060",
+    "precioOriginal": 195,
+    "precioRebajado": 45,
+        "disponible": true,
+    "tallas": "36-45",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Blanco", "imagen": "newbalance9060.webp" }
+      
+    ]
+  },
+                            {
+    "genero": "",
+    "categoria": "Zapatos",
+    "nombre": "New Balance 530",
+    "precioOriginal": 100,
+    "precioRebajado": 45,
+        "disponible": true,
+    "tallas": "36-44",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Blanco", "imagen": "newbalance530.webp" }
+      
+    ]
+  },
+                              {
+    "genero": "",
+    "categoria": "Zapatos",
+    "nombre": "Converse x Kenzo Paris",
+    "precioOriginal": 150,
+    "precioRebajado": 50,
+        "disponible": true,
+    "tallas": "35-44",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Kenzo", "imagen": "conversexkenzo.webp" }
+      
+    ]
+  },
+                                {
+    "genero": "",
+    "categoria": "Zapatos",
+    "nombre": "Converse Chuck Taylor",
+    "precioOriginal": 125,
+    "precioRebajado": 50,
+        "disponible": true,
+    "tallas": "35-44",
+    "medidas": "",
+    "colores": [
+      { "nombre": "Blanco", "imagen": "converse_all_star_chuck_whitelarge.webp" },
+      { "nombre": "Blanco", "imagen": "converse_all_star_chuck_whiteshort.webp" },
+      { "nombre": "Negro", "imagen": "converse_all_star_chuck_blacklarge.webp" },
+      { "nombre": "Negro", "imagen": "converse_all_star_chuck_blackshort.webp" }
+      
+    ]
   }
 ]
+
 
 
 
