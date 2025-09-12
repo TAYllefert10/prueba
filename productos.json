@@ -579,8 +579,8 @@
     ]
   },
         {
-    "genero": "",
-    "categoria": "Calzado",
+    "genero": "Calzado",
+    "categoria": "Zapatos",
     "nombre": "Asics Kayano 14",
     "precioOriginal": 170,
     "precioRebajado": 45,
@@ -596,6 +596,7 @@
     ]
   }
 ]
+
 
 
 
