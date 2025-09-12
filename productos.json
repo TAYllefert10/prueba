@@ -579,7 +579,7 @@
     ]
   },
         {
-    "genero": "Calzado",
+    "genero": "",
     "categoria": "Zapatos",
     "nombre": "Asics Kayano 14",
     "precioOriginal": 170,
@@ -592,10 +592,11 @@
       { "nombre": "Rosa", "imagen": "asics_Kayano_14_pink.webp" },
       { "nombre": "Negro", "imagen": "asics_Kayano_14_black.webp" },
       { "nombre": "Gris", "imagen": "asics_Kayano_14_grey.webp" },
-      { "nombre": "Blanco", "imagen": "Asics_Kayano_14_white.webp" },
+      { "nombre": "Blanco", "imagen": "Asics_Kayano_14_white.webp" }
     ]
   }
 ]
+
 
 
 
