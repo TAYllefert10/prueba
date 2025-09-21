@@ -796,8 +796,7 @@
     "colores": [
       { "nombre": "Negro", "imagen": "bolso_guess_black.webp" }  
     ]
-  }
-},
+  },
 {
     "genero": "Mujer",
     "categoria": "Bolsos",
@@ -821,6 +820,7 @@
 
 
 ]
+
 
 
 
