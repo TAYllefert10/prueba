@@ -783,8 +783,30 @@
       { "nombre": "Negro", "imagen": "converse_all_star_chuck_blackshort.webp" }
       
     ]
+  },
+{
+    "genero": "Mujer",
+    "categoria": "Bolsos",
+    "nombre": "Bolso Guess con monedero",
+    "precioOriginal": 125,
+    "precioRebajado": 40,
+        "disponible": true,
+    "tallas": "",
+    "medidas": "18x6x30cm",
+    "colores": [
+      { "nombre": "Negro", "imagen": "bolso_guess_black.webp" }  
+    ]
   }
+
+
+
+
+
+
+
+
 ]
+
 
 
 
