@@ -797,7 +797,22 @@
       { "nombre": "Negro", "imagen": "bolso_guess_black.webp" }  
     ]
   }
-
+},
+{
+    "genero": "Mujer",
+    "categoria": "Bolsos",
+    "nombre": "Bolso Isabel Mirant",
+    "precioOriginal": 690,
+    "precioRebajado": 45,
+        "disponible": true,
+    "tallas": "",
+    "medidas": "19x30cm",
+    "colores": [
+      { "nombre": "Burdeos", "imagen": "bolso_isabel_mirant.webp" },  
+      { "nombre": "Negro", "imagen": "bolso_isabel_mirant_black.webp" },
+      { "nombre": "Marrón", "imagen": "bolso_isabel_mirant_brown.webp" }
+    ]
+  }
 
 
 
@@ -806,6 +821,7 @@
 
 
 ]
+
 
 
 
